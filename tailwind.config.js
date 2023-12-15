@@ -11,9 +11,11 @@ module.exports = {
       },
       borderColor: {
         'Card-border': '#E6E6E6',
+        'Primary-color': '#1597E4',
       },
       textColor: {
         'Font-dark': '#212121',
+        'Primary-color': '#1597E4',
         'Font-white': '#FAFAFA',
         'Font-error': '#D86161',
         'Font-placeholder': '#7A7A7A',

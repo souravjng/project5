@@ -4,8 +4,9 @@ import DataReducer from './DataSlice';
 
 const store = configureStore({
     reducer: {
-        Data: DataReducer,
+        data: DataReducer,
     },
 });
 
 export default store;
+

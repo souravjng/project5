@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Button = ({ width, height, text }) => {
-  const buttonClasses = `${width || '32'} ${height || '10'} bg-Primary-color text-white ml-5 pl-4 pr-4 pt-2 pb-2 rounded-md`;
-
+const Button = ({ width = '32', height = '10', text,border='Card-border', }) => {
+  const buttonClasses = `w-${width} h-${height} bg-Primary-color text-Font-white pl-4 pr-4 pt-2 pb-2 rounded-md border border-${border}`;
+  
   return (
-    <button className={buttonClasses} >
+    <button className={buttonClasses}>
       {text}
     </button>
   );
