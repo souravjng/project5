@@ -29,7 +29,7 @@ const dataSlice = createSlice({
       }
 });
 
-export const { setData, setData2, setfetchData,EditData,Editform} = dataSlice.actions;
+export const { setData, setfetchData,EditData} = dataSlice.actions;
 
 const delay=()=>new Promise(resolve=>setTimeout(resolve,100));
 

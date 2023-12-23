@@ -39,7 +39,7 @@ const Card = (curr) => {
           </div>
         </div>
       </div>
-      <div style={{ width: '300px' }} className="relative">
+      <div style={{ width: '150px' }} className="relative">
   <div onClick={()=>deleteitem(id)} className="absolute top-0 right-0 cursor-pointer">
     <TrashIconComponent />
   </div>
